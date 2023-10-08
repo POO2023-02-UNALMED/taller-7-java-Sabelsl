@@ -47,12 +47,19 @@ public class Tesis extends Escrito {
 	}
 	@Override
 	public int palabrasTotales(int palabrasPagina) {
-	}
+		int Factor = 5;
+		int resultado = this.getPaginas() * palabrasPagina * Factor;
+		return resultado;}
 	public String interpretacion() {
 		return interpretacion;
 	}
 	public String toString() {
-		
+		String origen = getOrigen();
+		String Titulo = getTitulo();
+		String Autor = getAutor();
+		int Paginas = getPaginas();
+		 
+		return origen+"\n"+ Titulo+"\n"+ Autor+"\n"+ Paginas+"\n"+ this.argumentos+"\n"+this.conclusion+"\n"+this.referencias+"\n"+this.interpretacion;
+	}
 	}
 
-}

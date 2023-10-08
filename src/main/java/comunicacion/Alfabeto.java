@@ -1,7 +1,5 @@
 package comunicacion;
 
-import java.util.Iterator;
-
 public class Alfabeto extends Pictograma{
 	private String[] letras;
 	private String interpretacion;
@@ -42,10 +40,13 @@ public class Alfabeto extends Pictograma{
 	}
 	public String toString() {
 		String resultado = "";
-		for (int i = 0; i < letras.length; i++) {
-			resultado  = resultado +", "+i;
-			
-		}
+
+        for (int i = 0; i < letras.length - 1; i++) {
+            resultado += letras[i] + ",";
+        }
+
+        // Agrega el último elemento sin coma
+        resultado += letras[letras.length - 1];
 	return resultado;
 			}
 	}

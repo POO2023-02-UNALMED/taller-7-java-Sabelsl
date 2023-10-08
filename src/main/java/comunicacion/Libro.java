@@ -40,13 +40,19 @@ public class Libro extends Escrito{
 	}
 	@Override
 	public int palabrasTotales(int palabrasPagina){
-		return 1;
+		int Factor = 2;
+		int resultado = this.getPaginas() * palabrasPagina * Factor;
+		return resultado;
 	}
 	public String interpretacion() {
 		return interpretacion;
 	}
 	public String toString(){
-		
-	return "";
+		String origen = getOrigen();
+		String Titulo = getTitulo();
+		String Autor = getAutor();
+		int Paginas = getPaginas();
+		 
+		return origen+"\n"+ Titulo+"\n"+ Autor+"\n"+ Paginas+"\n"+ this.co_autor+"\n"+this.editorial+"\n"+this.edicion+"\n"+this.interpretacion;
 	}
 	}
