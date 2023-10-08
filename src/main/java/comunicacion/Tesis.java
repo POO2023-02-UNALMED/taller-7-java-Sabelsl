@@ -59,7 +59,7 @@ public class Tesis extends Escrito {
 		String Autor = getAutor();
 		int Paginas = getPaginas();
 		 
-		return origen+"\n"+ Titulo+"\n"+ Autor+"\n"+ Paginas+"\n"+ this.argumentos+"\n"+this.conclusion+"\n"+this.referencias+"\n"+this.interpretacion;
+		return this.interpretacion+"\n"+ Titulo+"\n"+ Autor+"\n"+ Paginas+"\n"+ this.argumentos+"\n"+this.conclusion+"\n"+this.referencias+"\n"+origen;
 	}
 	}
 
