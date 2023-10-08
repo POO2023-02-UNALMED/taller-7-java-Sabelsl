@@ -44,8 +44,6 @@ public class Alfabeto extends Pictograma{
         for (int i = 0; i < letras.length - 1; i++) {
             resultado += letras[i] + ",";
         }
-
-        // Agrega el último elemento sin coma
         resultado += letras[letras.length - 1];
 	return resultado;
 			}

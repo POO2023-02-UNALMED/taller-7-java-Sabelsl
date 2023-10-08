@@ -8,12 +8,13 @@ public class Tesis extends Escrito {
 	private String interpretacion;
 	private int Paginas;
 	
-	public Tesis (String origen, String titulo, String autor, int paginas,String[] argumentos,String conclusion,String referencias,String interpretacion) {
+	public Tesis (String origen, String titulo, String autor, int paginas,String idea,String[] argumentos,String conclusion,String referencias,String interpretacion) {
 		super(origen,titulo,autor,paginas);
 		this.argumentos = argumentos;
 		this.conclusion = conclusion;
 		this.referencias = referencias;
 		this.interpretacion = interpretacion;
+		this.idea = idea;
 		this.Paginas = getPaginas();
 	}
 	public String getIdea() {
@@ -59,7 +60,7 @@ public class Tesis extends Escrito {
 		String Titulo = getTitulo();
 		String Autor = getAutor();
 		 
-		return origen+"\n"+ Titulo+"\n"+ Autor+"\n"+Paginas+"\n"+ this.argumentos+"\n"+this.conclusion+"\n"+this.referencias+"\n"+this.interpretacion;
+		return origen+"\n"+ Titulo+"\n"+ Autor+"\n"+Paginas+"\n"+idea+"\n" +this.argumentos+"\n"+this.conclusion+"\n"+this.referencias+"\n"+this.interpretacion;
 	}
 	}
 
