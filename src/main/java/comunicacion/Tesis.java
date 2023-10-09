@@ -61,7 +61,7 @@ public class Tesis extends Escrito {
 		String Titulo = getTitulo();
 		String Autor = getAutor();
 		 
-		return origen+"\n"+ Titulo+"\n"+ Autor+"\n"+Paginas+"\n"+idea+"\n" +this.argumentos+"\n"+this.conclusion+"\n"+this.referencias+"\n"+this.interpretacion;
+		return origen+"\n"+ Titulo+"\n"+ Autor+"\n"+Paginas+"\n"+idea+"\n" +this.argumentos+"\n"+this.conclusion+"\n"+this.referencias;
 	}
 	
 	}

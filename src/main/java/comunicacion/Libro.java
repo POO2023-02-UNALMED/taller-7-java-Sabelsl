@@ -53,6 +53,6 @@ public class Libro extends Escrito{
 		String Autor = getAutor();
 		int Paginas = getPaginas();
 		 
-		return origen+"\n"+ Titulo+"\n"+ Autor+"\n"+ Paginas+"\n"+ this.co_autor+"\n"+this.editorial+"\n"+this.edicion+"\n"+this.interpretacion;
+		return origen+"\n"+ Titulo+"\n"+ Autor+"\n"+ Paginas+"\n"+ this.co_autor+"\n"+this.editorial+"\n"+this.edicion;
 	}
 	}

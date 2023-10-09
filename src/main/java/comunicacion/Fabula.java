@@ -42,7 +42,7 @@ public class Fabula extends Escrito{
 		 String Autor = getAutor();
 		 
 		 
-		return origen+"\n"+ Titulo+"\n"+ Autor+"\n"+ Paginas+"\n"+ this.ensenanza+"\n"+ this.interpretacion;
+		return origen+"\n"+ Titulo+"\n"+ Autor+"\n"+ Paginas+"\n"+ this.ensenanza;
 	}
 	
 }

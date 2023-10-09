@@ -45,6 +45,6 @@ public class Periodico extends Escrito{
 		String Autor = getAutor();
 		int Paginas = getPaginas();
 		 
-		return origen+"\n"+ Titulo+"\n"+ Autor+"\n"+ Paginas+"\n"+ this.fecha+"\n"+this.primicia+"\n"+this.interpretacion;
+		return origen+"\n"+ Titulo+"\n"+ Autor+"\n"+ Paginas+"\n"+ this.fecha+"\n"+this.primicia;
 	}
 }
