@@ -14,16 +14,19 @@ public class Fabula extends Escrito{
 		this.Paginas = getPaginas();
 	}
 	public String getEnsenanza() {
-		return ensenanza;
+		return this.ensenanza;
 	}
 	public void setEnsenanza(String ensenanza) {
 		this.ensenanza = ensenanza;
 	}
 	public String getInterpretacion() {
-		return interpretacion;
+		return this.interpretacion;
 	}
 	public void setInterpretacion(String interpretacion) {
 		this.interpretacion = interpretacion;
+	}
+	public String interpretacion() {
+		return this.interpretacion;
 	}
 	@Override
 	public int palabrasTotales(int palabrasPagina) {
@@ -31,9 +34,7 @@ public class Fabula extends Escrito{
 		int resultado = this.Paginas * palabrasPagina * Factor;
 		return resultado;
 	}
-	public String interpretacion() {
-		return interpretacion;
-	}
+	
 	public  String toString() {
 		 
 		 String origen = getOrigen();

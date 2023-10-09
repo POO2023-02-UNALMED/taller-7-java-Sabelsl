@@ -15,7 +15,7 @@ public class Libro extends Escrito{
 		
 	}
 	public String getCo_autor() {
-		return co_autor;
+		return this.co_autor;
 	}
 	public void setCo_autor(String co_autor) {
 		this.co_autor = co_autor;
@@ -27,13 +27,13 @@ public class Libro extends Escrito{
 		this.editorial = editorial;
 	}
 	public String getEdicion() {
-		return edicion;
+		return this.edicion;
 	}
 	public void setEdicion(String edicion) {
 		this.edicion = edicion;
 	}
 	public String getInterpretacion() {
-		return interpretacion;
+		return this.interpretacion;
 	}
 	public void setInterpretacion(String interpretacion) {
 		this.interpretacion = interpretacion;
@@ -45,7 +45,7 @@ public class Libro extends Escrito{
 		return resultado;
 	}
 	public String interpretacion() {
-		return interpretacion;
+		return this.interpretacion;
 	}
 	public String toString(){
 		String origen = getOrigen();

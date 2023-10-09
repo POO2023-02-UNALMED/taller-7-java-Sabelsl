@@ -12,7 +12,7 @@ public class Alfabeto extends Pictograma{
 		
 	}
 	public String[] getLetras() {
-		return letras;
+		return this.letras;
 	}
 
 
@@ -22,7 +22,7 @@ public class Alfabeto extends Pictograma{
 
 
 	public String getInterpretacion() {
-		return interpretacion;
+		return this.interpretacion;
 	}
 
 
@@ -36,7 +36,7 @@ public class Alfabeto extends Pictograma{
 	}
 	@Override
 	public String interpretacion() {
-	return interpretacion;
+	return this.interpretacion;
 	}
 	public String toString() {
 		String resultado = "";
@@ -45,6 +45,6 @@ public class Alfabeto extends Pictograma{
             resultado += letras[i] + ",";
         }
         resultado += letras[letras.length - 1];
-	return resultado;
+        return resultado;
 			}
 	}

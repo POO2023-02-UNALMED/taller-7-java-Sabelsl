@@ -13,19 +13,19 @@ public class Periodico extends Escrito{
 	}
 	
 	public String getFecha() {
-		return fecha;
+		return this.fecha;
 	}
 	public void setFecha(String fecha) {
 		this.fecha = fecha;
 	}
 	public String getPrimicia() {
-		return primicia;
+		return this.primicia;
 	}
 	public void setPrimicia(String primicia) {
 		this.primicia = primicia;
 	}
 	public String getInterpretacion() {
-		return interpretacion;
+		return this.interpretacion;
 	}
 	public void setInterpretacion(String interpretacion) {
 		this.interpretacion = interpretacion;
@@ -37,7 +37,7 @@ public class Periodico extends Escrito{
 		return resultado;}
 	
 	public String interpretacion() {
-		return interpretacion;
+		return this.interpretacion;
 	}
 	public String toString() {
 		String origen = getOrigen();

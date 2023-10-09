@@ -18,31 +18,31 @@ public class Tesis extends Escrito {
 		this.Paginas = getPaginas();
 	}
 	public String getIdea() {
-		return idea;
+		return this.idea;
 	}
 	public void setIdea(String idea) {
 		this.idea = idea;
 	}
 	public String[] getArgumentos() {
-		return argumentos;
+		return this.argumentos;
 	}
 	public void setArgumentos(String[] argumentos) {
 		this.argumentos = argumentos;
 	}
 	public String getConclusion() {
-		return conclusion;
+		return this.conclusion;
 	}
 	public void setConclusion(String conclusion) {
 		this.conclusion = conclusion;
 	}
 	public String getRefrencias() {
-		return referencias;
+		return this.referencias;
 	}
 	public void setRefrencias(String refrencias) {
 		this.referencias = refrencias;
 	}
 	public String getInterpretacion() {
-		return interpretacion;
+		return this.interpretacion;
 	}
 	public void setInterpretacion(String interpretacion) {
 		this.interpretacion = interpretacion;
